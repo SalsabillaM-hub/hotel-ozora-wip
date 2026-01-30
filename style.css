@@ -1,0 +1,813 @@
+
+body {
+    overflow-x: hidden;
+    padding-bottom: 20vh;
+    margin: 0;
+    background-color: #feffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#wrapper {
+    width: 990px;
+    height: 8300px;
+    margin: 0 auto;
+    border: 5px solid transparent;
+}
+
+.swiper-container {
+    position: relative;
+    max-width: 100%;
+    top: 250px;
+    border: 5px solid transparent;
+    height: 550px;
+    background-color: #1b8bc7;
+}
+
+/* slider */
+
+.swiper {
+  width: 980px;
+  align-items: center;
+}
+
+.swiper.mySwiper{
+    width: unset;
+}
+
+.mySwiper{
+    top: 2px;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.mySwiper .swiper-slide{
+    width: 74%;
+}
+
+.mySwiper .swiper-slide img{
+    width: 100%;
+    transform: scale(1.0);
+}
+
+/* slider owariii */
+
+.swiper-wrapper-hamster {
+    position: relative;
+    z-index: -10;
+    top: -10;
+    margin-top: -50%;
+}
+
+/* slider */
+
+.swiper.mySwiperHamster{
+    width: 74%;
+}
+
+.mySwiperHamster{
+    top: 2px;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.mySwiperHamster .hamster-slide{
+    width: 100%;
+}
+
+.mySwiperHamster .hamster-slide img{
+    width: 100%;
+    transform: scale(0.5);
+}
+
+/* slider owariii */
+
+.overlay-hamster {
+    position: absolute;
+    top: -250px;
+    left: 10px;
+    z-index: 10;
+    filter: drop-shadow(2px 2px 6px rgba(0,0,0,0.3));
+    pointer-events: none;
+}
+
+.overlay-hamster p{
+    position: absolute;
+    top: 85px;
+    left: 50px;
+    z-index: 15;
+    text-align: center;
+    font-size: 20px;
+    color:#1b8bc7;
+}
+
+.overlay-title {
+    position: absolute;
+    top: -250px;
+    right: 10px;
+    z-index: 10;
+    filter: drop-shadow(3px 3px 8px rgba(0,0,0,0.4));
+    pointer-events: none;
+}
+
+.button-container {
+    position: relative;
+    width: 100%;
+    top: 290px;
+    max-width: 990px;
+    height: 355px;
+    border: 5px solid transparent;
+    z-index: 10;
+    display: block;
+}
+
+#navi-orange {
+    position: absolute;
+    left: 10px;
+}
+
+#navi-yellow {
+    position: absolute;
+    top: 1px;
+    right: 15px;
+}
+
+#navi-blue {
+    position: absolute;
+    top: 120px;
+    left: 100px;
+}
+
+#navi-green {
+    position: absolute;
+    top: 120px;
+    right: 100px;
+}
+
+.base-01 {
+    position: relative;
+    background-image: url(images/bases-01.png);
+    top: 200px;
+    max-width: 990px;
+    height: 1623px;
+}
+
+#title-01 {
+    position: relative;
+    top: 53px;
+    width: 990px;
+    height: 166px;
+    border: 5px solid transparent;
+    z-index: 1;
+}
+
+#title-01 img {
+    position: absolute;
+    left: 180px;
+}
+
+.swiper-container-02 {
+  position: relative; 
+  height: 600px; 
+}
+
+/* slider */
+
+.swiper.mySwiper2{
+    width: unset;
+}
+
+.mySwiper2{
+    top: -70px;
+    width: 990px;
+    margin: 0 auto;
+}
+
+.mySwiper2 .swiper-slide-02{
+    width: 74%;
+}
+
+.mySwiper2 .swiper-slide-02 img{
+    width: 100%;
+    transform: scale(0.7);
+}
+
+.mySwiper2 .swiper-button-next{
+    right: 60px;
+    top: 400px;
+}
+
+.mySwiper2 .swiper-button-prev{
+    left: 60px;
+    top: 400px;
+}
+
+.text-content-02a {
+    position: absolute;
+    top: 700px;
+    left: 115px;
+    font-size: 25px;
+    text-align: center;
+    color: #c64e1e;
+    z-index: 5;
+}
+
+.text-content-02b {
+    position: absolute;
+    top: 680px;
+    left: 105px;
+    font-size: 25px;
+    text-align: center;
+    color: #c64e1e;
+    z-index: 5;
+}
+
+.text-content-02c {
+    position: absolute;
+    top: 690px;
+    left: 130px;
+    font-size: 25px;
+    text-align: center;
+    color: #c64e1e;
+    z-index: 5;
+}
+
+.text-content-02d {
+    position: absolute;
+    top: 680px;
+    left: 105px;
+    font-size: 25px;
+    text-align: center;
+    color: #c64e1e;
+    z-index: 5;
+}
+
+/* slider owariii */
+
+#plan-01-text-banner {
+    position: relative;
+    left: 50px;
+    top: -115px;
+    z-index: 0;
+}
+
+#plan-01 {
+    position: relative;
+    top: 200px;
+    width: 990px;
+    height: 602px;
+    border: 5px solid transparent;
+}
+
+#plan-01-a {
+    position: relative;
+    top: 5px;
+    left: 25px;
+}
+
+#p-01-a1 {
+    position: absolute;
+    top: 10px;
+    left: 280px;
+    font-size: 25px;
+    text-align: center;
+    color: #c64e1e;
+}
+
+#p-01-a2 {
+    position: absolute;
+    top: 60px;
+    left: 280px;
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#plan-01-b {
+    position: relative;
+    top: 5px;
+    left: 25px;
+}    
+
+#p-01-b1 {
+    position: absolute;
+    top: 10px;
+    left: 280px;
+    font-size: 25px;
+    text-align: center;
+    color: #c64e1e;
+}
+
+#p-01-b2 {
+    position: absolute;
+    top: 60px;
+    left: 280px;
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#coupon-button-01-a {
+    position: absolute;
+    top: 170px;
+    left: 280px;
+}
+
+#plan-01-b {
+    position: relative;
+    top: 35px;
+    left: 25px;
+}
+
+#coupon-button-01-a {
+    position: absolute;
+    top: 170px;
+    left: 280px;
+}
+
+.base-02 {
+    position: relative;
+    background-image: url(images/bases-02.png);
+    max-width: 990px;
+    height: 1287px;
+    margin: 0 auto;
+    top: 210px;
+}
+
+#title-02 {
+    position: relative;
+    top: 53px;
+    width: 990px;
+    height: 166px;
+    border: 5px solid transparent;
+    z-index: 1;
+}
+
+#title-02 img {
+    position: absolute;
+    left: 55px;
+}
+
+#hamster-house {
+    top: 20px;
+    position: relative;
+    max-width: 990px;
+}
+
+#plan-02-text-banner {
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+#plan-02-text-banner p {
+    position: absolute;
+    bottom: 2px;
+    left: 100px;
+    font-size: 30px;
+    text-align: center;
+    color: #2511bd;
+}
+
+#plan-02-a {
+    position: relative;
+    top: 50px;
+    left: 25px;
+}
+
+#coupon-button-02-a {
+    position: absolute;
+    top: 150px;
+    left: 280px;
+}
+
+#p-02-a1 {
+    position: absolute;
+    top: 10px;
+    left: 385px;
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#p-02-a2 {
+    position: absolute;
+    top: 55px;
+    left: 300px;
+    font-size: 25px;
+    text-align: center;
+    color: #475de7;
+}
+
+.base-03 {
+    position: relative;
+    background-image: url(images/bases-03.png);
+    max-width: 990px;
+    height: 2090px;
+    margin: 0 auto;
+     top: 220px;
+}
+
+#title-03 {
+    position: relative;
+    top: 53px;
+    width: 990px;
+    height: 166px;
+    border: 5px solid transparent;
+    z-index: 1;
+}
+
+#title-03 img {
+    position: absolute;
+    left: 140px;
+}
+
+.swiper swiper-text {
+    position: relative;
+}
+
+#swiper-container-03 {
+    position: relative;
+    top: 50px;
+    left: 17px;
+    width: 940px;
+    height: 450px;
+    border: 5px solid transparent;
+}
+
+/* slider */
+
+.swiper.mySwiper3{
+    width: unset;
+}
+
+.mySwiper3{
+    top: -110px;
+    width: 990px;
+    margin: 0 auto;
+}
+
+.mySwiper3 .swiper-slide-03{
+    width: 74%;
+}
+
+.mySwiper3 .swiper-slide-03 img{
+    width: 100%;
+    transform: scale(0.7);
+}
+
+.mySwiper3 .swiper-button-next{
+    right: 60px;
+    top: 400px;
+}
+
+.mySwiper3 .swiper-button-prev{
+    left: 60px;
+    top: 400px;
+}
+
+.text-content-03a {
+    position: absolute;
+    top: 700px;
+    left: 115px;
+    font-size: 25px;
+    text-align: center;
+    color: #00947d;
+    z-index: 5;
+}
+
+.text-content-03b {
+    position: absolute;
+    top: 680px;
+    left: 105px;
+    font-size: 25px;
+    text-align: center;
+    color: #00947d;
+    z-index: 5;
+}
+
+.text-content-03c {
+    position: absolute;
+    top: 690px;
+    left: 130px;
+    font-size: 25px;
+    text-align: center;
+    color: #00947d;
+    z-index: 5;
+}
+
+.text-content-03d {
+    position: absolute;
+    top: 680px;
+    left: 105px;
+    font-size: 25px;
+    text-align: center;
+    color: #00947d;
+    z-index: 5;
+}
+
+.text-content-03e {
+    position: absolute;
+    top: 680px;
+    left: 105px;
+    font-size: 25px;
+    text-align: center;
+    color: #00947d;
+    z-index: 5;
+}
+
+/* slider owariii */
+
+#plan-03-text-banner {
+    position: relative;
+    top: -95px;
+    left: 35px;
+}
+
+#plan-03 {
+    position: relative;
+    padding-top: 5px;
+    margin-top: 5px;
+    width: 990px;
+    height: 602px;
+    border: 5px solid transparent;
+    top: 550px;
+}
+
+#plan-03-a {
+    position: relative;
+    top: -190px;
+    left: 55px;
+}
+
+#coupon-button-03-a {
+    position: absolute;
+    top: 260px;
+    left: 240px;
+}
+
+#p-03-a1 {
+    position: absolute;
+    top: 15px;
+    left: 200px;
+    font-size: 25px;
+    text-align: center;
+    color: #219cb2;
+}
+
+#p-03-a2 {
+    position: absolute;
+    top: 75px;
+    left: 140px;
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#coupon-button-03-b {
+    position: absolute;
+    top: 260px;
+    left: 290px;
+}
+
+#plan-03-b {
+    position: relative;
+    top: -180px;
+    left: -1px;
+}
+
+#p-03-b1 {
+    position: absolute;
+    top: 15px;
+    left: 270px;
+    font-size: 25px;
+    text-align: center;
+    color: #219cb2;
+}
+
+#p-03-b2 {
+    position: absolute;
+    top: 75px;
+    left: 210px;
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.base-04 {
+    position: relative;
+    background-image: url(images/bases-04.png);
+    max-width: 965px;
+    height: 1611px;
+    margin: 0 auto;
+    top: 220px;
+}
+
+#title-04 {
+    position: relative;
+    top: 45px;
+    width: 990px;
+    height: 166px;
+    border: 5px solid transparent;
+    z-index: 1;
+}
+
+#title-04 img {
+    position: absolute;
+    left: 170px;
+}
+
+#swiper-container-04 {
+    position: relative;
+    top: 30px;
+    left: 17px;
+    width: 920px;
+    height: 560px;
+    border: 5px solid transparent;
+}
+
+/* slider */
+
+.swiper.mySwiper4{
+    width: unset;
+}
+
+.mySwiper4{
+    top: -90px;
+    width: 990px;
+    margin: 0 auto;
+    left: 5px;
+}
+
+.mySwiper4 .swiper-slide-04{
+    width: 74%;
+}
+
+.mySwiper4 .swiper-slide-04 img{
+    width: 100%;
+    transform: scale(0.7);
+}
+
+.mySwiper4 .swiper-button-next{
+    right: 60px;
+    top: 350px;
+}
+
+.mySwiper4 .swiper-button-prev{
+    left: 60px;
+    top: 350px;
+}
+/* slider owariii */
+
+#plan-04-text-banner {
+    position: relative;
+    top: -10px;
+    left: 40px;
+}
+
+#plan-04-text-banner p {
+    position: absolute;
+    top: 8px;
+    left: 105px;
+    font-size: 25px;
+    text-align: center;
+    color: #ff690e;
+}
+
+#plan-04 {
+    position: relative;
+    padding-top: 1px;
+    margin-top: -30px;
+    width: 990px;
+    height: 602px;
+    border: 5px solid transparent;
+}
+
+#review {
+    position: relative;
+    top: -30px;
+    left: 50px;
+}
+
+#review p {
+    position: absolute;
+    top: 120px;
+    left: 55px;
+    font-size: 30px;
+    color: #ff690e;
+}
+
+#plan-04-desc {
+    position: relative;
+    top: -20px;
+    left: 90px;
+}
+
+#plan-04-desc p {
+    position: absolute;
+    top: 10px;
+    left: 90px;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+#hungry-hamster {
+    position: relative;
+    z-index: 2;
+    left: 150px;
+    top: 160px;
+}
+
+.base-05 {
+    position: relative;
+    background-image: url(images/bases-05.png);
+    max-width: 964px;
+    height: 695px;
+    margin: 0 auto;
+    top: 150px;
+}
+
+#pesawat-besar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#button-kupon-big {
+    position: relative;
+    top: 30px;
+    left: 289px;
+}
+
+#warning {
+    position: relative;
+    top: 20px;
+    left: 345px;
+    color: #e57042;
+    font-size: 20px;
+}
+
+#jal-and-ana {
+    position: relative;
+    top: 45px;
+    width: 930px;
+    height: 400px;
+    border: 5px solid transparent;
+}
+
+#jal-and-ana-plan {
+    display: flex;
+    gap: 20px;
+    right: 70px;
+}
+
+#plan-button-jal {
+    position: absolute;
+    left: 90px;
+    top: 150px;
+}
+
+#text-jal {
+    position: absolute;
+    top: 1px;
+    left: 150px;
+    text-align: center;
+    font-size: 35px;
+    color: #ffffff;
+}
+
+#plan-button-ana {
+    position: absolute;
+    right: 30px;
+    top: 150px;
+}
+
+#text-ana {
+    position: absolute;
+    top: 1px;
+    right: 85px;
+    text-align: center;
+    font-size: 35px;
+    color: #ffffff;
+}
+
+a{
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+a:hover {
+  transform: scale(1.08);
+}
+
+@media (max-width: 480px) {
+    .swiper {
+        width: unset;
+        height: unset;
+        max-width: 400px;
+        max-height: 300px;
+    }
+}
